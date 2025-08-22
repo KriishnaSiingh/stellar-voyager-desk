@@ -24,6 +24,7 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'primary-glow': 'hsl(var(--primary-glow))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +63,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-cosmic': 'var(--gradient-cosmic)',
+				'gradient-nebula': 'var(--gradient-nebula)',
+				'gradient-stellar': 'var(--gradient-stellar)',
+				'gradient-aurora': 'var(--gradient-aurora)',
+			},
+			boxShadow: {
+				'cosmic': 'var(--shadow-cosmic)',
+				'stellar': 'var(--shadow-stellar)',
+				'glow-primary': 'var(--glow-primary)',
+				'glow-accent': 'var(--glow-accent)',
+			},
+			transitionTimingFunction: {
+				'cosmic': 'var(--transition-cosmic)',
+				'stellar': 'var(--transition-stellar)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
